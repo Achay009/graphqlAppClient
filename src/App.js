@@ -7,7 +7,7 @@ import ApolloClient from 'apollo-boost';
 import AddBook from './components/AddBook'
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: process.env.API_URI || 'http://localhost:4000/graphql',
 
 })
 

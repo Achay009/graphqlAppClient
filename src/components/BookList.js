@@ -26,7 +26,7 @@ class BookList extends Component {
         }
     }
     render() {
-        console.log(this.props)
+        // console.log(this.props)
         return (
             <>
                 <ul id="book-list">{this.displayBooks()}</ul>

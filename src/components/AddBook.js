@@ -52,7 +52,7 @@ class AddBook extends Component {
     render() {
         return (
             <>
-                <Form
+                <SubmitForm
                     getAuthors={this.displayAuthors()}
                     state={this.state}
                     onChange={this.onChanged}
@@ -62,7 +62,7 @@ class AddBook extends Component {
     }
 }
 
-const Form = (props) => {
+const SubmitForm = (props) => {
     return (
         <form id="add-book" onSubmit={(e) => props.onSubmit(e)}>
             <div className="field">

@@ -7,7 +7,7 @@ import ApolloClient from 'apollo-boost';
 import AddBook from './components/AddBook'
 
 const client = new ApolloClient({
-  uri: ' https://graphql-book-server.now.sh/graphql'
+  uri: 'https://graphql-book-server.herokuapp.com/graphql'
 })
 
 class App extends Component {
